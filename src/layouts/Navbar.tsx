@@ -1,6 +1,6 @@
 import React from 'react'
 import { AppBar, Toolbar, Typography, makeStyles, Tabs, Tab } from '@material-ui/core'
-import SearchField from './SearchField';
+import SearchField from 'components/SearchField'
 
 const Navbar = () => {
   const classes = useStyles()
