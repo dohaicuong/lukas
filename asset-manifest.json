@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.js": "/lukas/static/js/main.57a048ca.chunk.js",
-    "main.js.map": "/lukas/static/js/main.57a048ca.chunk.js.map",
-    "runtime-main.js": "/lukas/static/js/runtime-main.b5be13a7.js",
-    "runtime-main.js.map": "/lukas/static/js/runtime-main.b5be13a7.js.map",
-    "static/js/2.80fa713d.chunk.js": "/lukas/static/js/2.80fa713d.chunk.js",
-    "static/js/2.80fa713d.chunk.js.map": "/lukas/static/js/2.80fa713d.chunk.js.map",
-    "static/js/3.f6d402a1.chunk.js": "/lukas/static/js/3.f6d402a1.chunk.js",
-    "static/js/3.f6d402a1.chunk.js.map": "/lukas/static/js/3.f6d402a1.chunk.js.map",
-    "static/js/4.5ee620f4.chunk.js": "/lukas/static/js/4.5ee620f4.chunk.js",
-    "static/js/4.5ee620f4.chunk.js.map": "/lukas/static/js/4.5ee620f4.chunk.js.map",
+    "main.js": "/lukas/static/js/main.f4d44b0b.chunk.js",
+    "main.js.map": "/lukas/static/js/main.f4d44b0b.chunk.js.map",
+    "runtime-main.js": "/lukas/static/js/runtime-main.09db2c45.js",
+    "runtime-main.js.map": "/lukas/static/js/runtime-main.09db2c45.js.map",
+    "static/js/2.78583d36.chunk.js": "/lukas/static/js/2.78583d36.chunk.js",
+    "static/js/2.78583d36.chunk.js.map": "/lukas/static/js/2.78583d36.chunk.js.map",
+    "static/js/3.bcbb7580.chunk.js": "/lukas/static/js/3.bcbb7580.chunk.js",
+    "static/js/3.bcbb7580.chunk.js.map": "/lukas/static/js/3.bcbb7580.chunk.js.map",
+    "static/js/4.26ec7d50.chunk.js": "/lukas/static/js/4.26ec7d50.chunk.js",
+    "static/js/4.26ec7d50.chunk.js.map": "/lukas/static/js/4.26ec7d50.chunk.js.map",
     "index.html": "/lukas/index.html",
-    "precache-manifest.a73d97a54d6dfa81cf3da2efefdc772c.js": "/lukas/precache-manifest.a73d97a54d6dfa81cf3da2efefdc772c.js",
+    "precache-manifest.977bf62c73f4eb3231e630200a991f60.js": "/lukas/precache-manifest.977bf62c73f4eb3231e630200a991f60.js",
     "service-worker.js": "/lukas/service-worker.js",
-    "static/js/2.80fa713d.chunk.js.LICENSE.txt": "/lukas/static/js/2.80fa713d.chunk.js.LICENSE.txt",
-    "static/js/3.f6d402a1.chunk.js.LICENSE.txt": "/lukas/static/js/3.f6d402a1.chunk.js.LICENSE.txt"
+    "static/js/2.78583d36.chunk.js.LICENSE.txt": "/lukas/static/js/2.78583d36.chunk.js.LICENSE.txt",
+    "static/js/3.bcbb7580.chunk.js.LICENSE.txt": "/lukas/static/js/3.bcbb7580.chunk.js.LICENSE.txt",
+    "static/media/banner1.png": "/lukas/static/media/banner1.190ab892.png",
+    "static/media/logo.png": "/lukas/static/media/logo.5564986b.png",
+    "static/media/product1.png": "/lukas/static/media/product1.4f1d3cff.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b5be13a7.js",
-    "static/js/2.80fa713d.chunk.js",
-    "static/js/main.57a048ca.chunk.js"
+    "static/js/runtime-main.09db2c45.js",
+    "static/js/2.78583d36.chunk.js",
+    "static/js/main.f4d44b0b.chunk.js"
   ]
 }
