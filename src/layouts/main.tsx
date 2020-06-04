@@ -3,11 +3,12 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 const MainLayout: React.FC = ({ children }) => {
-  console.log(children)
   return (
     <div className='MainLayout'>
       <Navbar />
-      {children}
+      <div className='content' style={{ minHeight: 'calc(100vh - 64px - 22px)' }}>
+        {children}
+      </div>
       <Footer />
     </div>
   )

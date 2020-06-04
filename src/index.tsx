@@ -6,7 +6,23 @@ import { ThemeProvider, createMuiTheme, CssBaseline } from '@material-ui/core'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import MainLayout from 'layouts/main'
 
-const theme = createMuiTheme()
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#3a3a3c'
+    }
+  },
+  overrides: {
+    MuiCssBaseline: {
+      '@global': {
+        '*': {
+          'scrollbar-width': 'thin',
+        },
+        '*::-webkit-scrollbar': { width: 4, height: 4 },
+      },
+    },
+  },
+})
 
 const root = document.getElementById('root') as HTMLElement
 ReactDOM.unstable_createRoot(root).render(
@@ -14,7 +30,7 @@ ReactDOM.unstable_createRoot(root).render(
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <MainLayout>
-        <React.Suspense fallback='root loadding...'>
+        <React.Suspense fallback={null}>
           <Switch>
             <Route exact path='/' component={React.lazy(() => import('pages/Home'))} />
           </Switch>

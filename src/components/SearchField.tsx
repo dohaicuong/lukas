@@ -50,6 +50,7 @@ const useStyles = makeStyles(theme => ({
   },
   inputRoot: {
     color: 'inherit',
+    height: '100%',
   },
   inputInput: {
     padding: theme.spacing(1, 1, 1, 0),
@@ -60,5 +61,6 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.up('md')]: {
       width: '20ch',
     },
+    height: '100%',
   },
 }))
