@@ -26,7 +26,7 @@ const Section = ({ title, id }: any) => {
         {Array(4).fill(1).map((_, index) => (
           <Grid key={index} item xs={3}>
             <Paper>
-              <CardActionArea style={{ padding: 0 }}>
+              <CardActionArea>
                 <img
                   style={{ width: '100%' }}
                   src={product1}
