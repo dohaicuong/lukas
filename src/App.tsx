@@ -2,7 +2,7 @@ import React from 'react'
 import { ThemeProvider, createMuiTheme, CssBaseline } from '@material-ui/core'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import MainLayout from 'layouts/main'
-import { useWindowScrollPosition } from 'the-platform'
+// import { useWindowScrollPosition } from 'the-platform'
 
 const theme = createMuiTheme({
   palette: {
